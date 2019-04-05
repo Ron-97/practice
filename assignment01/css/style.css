@@ -1,0 +1,323 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: "メイリオ", Meiryo, Osaka, sans-serif;
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+
+header {
+	/* background-color: red; */
+	height: 120px;
+	display: flex;
+}
+
+.logo {
+	margin: 20px;
+	margin-right: 270px;
+}
+
+.header-list{
+	font-size: 21px;
+	color: #333;
+}
+
+	.header-list ul {
+		margin: 50px 1px;
+	}
+
+.header-list li {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+section {
+	position: relative;
+}
+
+.sentence1 {
+	position: absolute;
+	top: 188px;
+	bottom:188px;
+	left: 25px;
+	right: 25px;
+  color: white;
+	text-align: center;
+}
+
+.sentence1 h1 {
+	font-size: 48px;
+}
+
+.sentence1 p {
+	font-size: 36px;
+	margin-top: 30px;
+}
+
+.section-about {
+	text-align: center;
+}
+
+.about {
+  margin-top: 60px;
+	font-size: 24px;
+	color: black;
+  text-align: center;
+}
+
+.about1 {
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+.about2 {
+	margin-top: 60px;
+	font-size: 16px;
+}
+
+.about3 {
+	margin: 40px 0 40px 0;
+	font-size: 16px;
+}
+
+.about4 {
+	margin-bottom: 80px;
+	font-size: 16px;
+}
+
+.about-img {
+	display: flex;
+max-width: 100%;
+vertical-align: baseline;
+}
+
+.section-course div > h1 {
+	text-align: center;
+	margin: 60px 0 30px 0;
+	font-size: 24px;
+}
+
+.course1 {
+  margin-bottom: 60px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.course-img {
+	background-color: #fafafa;
+}
+
+.course-img1 {
+	display: flex;
+}
+
+.course-sentence1 {
+		border-bottom: 1px solid red;
+}
+
+.course-sentence1 h1 {
+	margin: 120px 0 40px 50px;
+	font-size: 24px;
+}
+
+.course-sentence1 p {
+	margin-left: 50px;
+	font-size: 16px;
+	line-height: 200%;
+}
+
+.course-sentence2-wrap {
+	position: relative;
+}
+
+
+.course-sentence2 {
+	margin-top: 120px;
+	 position: absolute;
+	 right: 0;
+	 border-bottom: 1px solid red;
+}
+
+.course-sentence2 h1 {
+	margin-bottom: 40px;
+	font-size: 24px;
+}
+
+.course-sentence2 p {
+	font-size: 16px;
+	line-height: 200%;
+}
+
+.course-img2 {
+	display: flex;
+}
+
+.course-img3 {
+	display: flex;
+}
+
+.course-sentence3 {
+		border-bottom: 1px solid red;
+}
+
+.course-sentence3 h1 {
+	margin: 120px 0 40px 50px;
+	font-size: 24px;
+}
+
+.course-sentence3 p {
+	margin-left: 50px;
+	font-size: 16px;
+	line-height: 200%;
+}
+
+.news h1 {
+  margin: 60px 0 30px 0;
+	font-size: 24px;
+	color: black;
+  text-align: center;
+}
+
+.news p {
+	margin-bottom: 60px;
+	font-size: 16px;
+	color: black;
+	text-align: center;
+}
+
+.news-img {
+	display: flex;
+	justify-content: center;
+  /* align-items: center; */
+}
+
+.news-image1 {
+ margin-right: 30px;
+}
+
+.news-image2 {
+ margin-right: 30px;
+}
+
+.news-sentence1 {
+	margin: 30px 0 24px 0;
+	font-size: 14px;
+}
+
+.news-sentence1-1 {
+	font-size: 14px;
+	line-height: 200%;
+}
+
+.news-sentence2 {
+	margin: 30px 0 24px 0;
+	font-size: 14px;
+}
+
+.news-sentence2-1 {
+	font-size: 14px;
+	line-height: 200%;
+}
+
+.news-sentence3 {
+	margin: 30px 0 24px 0;
+	font-size: 14px;
+}
+
+.news-sentence3-1 {
+	font-size: 14px;
+	line-height: 200%;
+}
+
+.more {
+	margin: 81px 0 81px 0;
+}
+
+.more1 {
+	padding: 21px 114px;
+	font-size: 18px;
+  color: white;
+	background-color: #ffd61a;
+  cursor: pointer;
+
+}
+
+.section-access {
+	background-color: #fafafa;
+}
+
+.access {
+	text-align: center;
+}
+
+.access-h1 {
+	margin-top: 60px;
+}
+
+.section-access h1 {
+	font-size: 24px;
+	margin: 60px 0 30px 0;
+}
+
+.section-access .access p {
+	font-size: 16px;
+	margin-bottom: 60px;
+}
+
+.iframe1 {
+	margin-bottom: 60px;
+}
+
+.access-info {
+	display: flex;
+	justify-content: center;
+
+}
+
+.access-info p {
+    margin-bottom: 30px;
+}
+
+.access-info1 {
+    margin-bottom: 30px;
+		margin-right: 50px;
+}
+
+.contact {
+	text-align: center;
+}
+
+.contact h1 {
+	margin-top: 60px;
+	margin-bottom: 30px;
+	font-size: 24px;
+}
+
+.contact-p {
+	font-size: 18px;
+	text-align: center;
+}
+
+.contact-p2 {
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
